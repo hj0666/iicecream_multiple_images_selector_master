@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--修改头像 ok-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:alpha="0.6"
+              android:background="@android:color/transparent"
+              android:gravity="bottom"
+              android:orientation="vertical"
+              android:padding="@dimen/activity_horizontal_margin_8">
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ice_image_corner_button_top"
+        android:padding="@dimen/activity_horizontal_margin_8"
+        android:text="相机"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_size_14"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.6"
+        android:background="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btn_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ice_image_corner_button_bottom"
+        android:padding="@dimen/activity_horizontal_margin_8"
+        android:text="相册"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_size_14"/>
+
+    <Button
+        android:id="@+id/about_btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ice_image_corner_button_selector"
+        android:padding="@dimen/activity_horizontal_margin_8"
+        android:text="取消"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/default_size_14"/>
+
+</LinearLayout>

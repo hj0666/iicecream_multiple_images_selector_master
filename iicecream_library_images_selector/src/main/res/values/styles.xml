@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--支付对话框-->
+    <style name="ice_image_dialog_theme_style" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item><!--activity不变暗-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <!-- 菜单对话框弹出动画样式 -->
+    <style name="ice_image_dialog_animation_style">
+        <item name="android:windowEnterAnimation">@anim/ice_image_dialog_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/ice_image_dialog_anim_out</item>
+    </style>
+</resources>

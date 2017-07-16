@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_shortAnimTime">
+
+
+    <item android:state_enabled="true">
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+
+            <size android:width="5dp" android:height="5dp" />
+            <solid android:color="@android:color/white" />
+
+        </shape>
+
+    </item>
+
+    <item android:state_enabled="false">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+
+            <size android:width="5dp" android:height="5dp" />
+            <solid android:color="#8a959e" />
+        </shape>
+    </item>
+
+</selector>

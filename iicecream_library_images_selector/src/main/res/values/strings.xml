@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">选择多张图片</string>
+    <string name="selected_picture_text">最多只能选择</string>
+    <string name="selected_picture_text2">张图片哦</string>
+</resources>

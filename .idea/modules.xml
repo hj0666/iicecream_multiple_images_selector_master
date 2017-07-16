@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iicecream_library_images_selector/iicecream_library_images_selector.iml" filepath="$PROJECT_DIR$/iicecream_library_images_selector/iicecream_library_images_selector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iicecream_library_photoview/iicecream_library_photoview.iml" filepath="$PROJECT_DIR$/iicecream_library_photoview/iicecream_library_photoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iicecream_multiple_images_selector_master.iml" filepath="$PROJECT_DIR$/iicecream_multiple_images_selector_master.iml" />
+    </modules>
+  </component>
+</project>
